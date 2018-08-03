@@ -1,0 +1,36 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+.nav {
+  padding: 20px 20%;
+}
+.nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 2em;
+}
+.center-content {
+  padding: 0 20%;
+}
+.panel {
+  height: 75vh;
+  padding: 10% 20%;
+  font-size: 2em;
+}
+#main {
+  background: navy;
+  color: yellow;
+}
+#about {
+  background: lightgoldenrodyellow;
+  color: navy;
+}
