@@ -24,6 +24,10 @@ body {
   background: lightgoldenrodyellow;
   color: navy;
 }
+.silver-on-dark-blue-skin {
+  background: black;
+  color: silver;
+}
 
 /* font sizing */
 
