@@ -111,6 +111,11 @@ body {
 
 /* columns */
 @media screen and (min-width: 41em) {
+  .columns:after {
+    display: table;
+    content: "";
+    clear: both;
+  }
   .one-third {
     float: left;
     width: 32%;
