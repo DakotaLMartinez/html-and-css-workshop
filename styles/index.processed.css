@@ -73,7 +73,9 @@ body {
 .no-top-margin {
   margin-top: 0;
 }
-
+.bottom-margin-2 {
+  margin-bottom: 2em;
+}
 .max-width-100 {
   max-width: 100%;
 }
