@@ -73,6 +73,7 @@ body {
 .no-top-margin {
   margin-top: 0;
 }
+
 .max-width-100 {
   max-width: 100%;
 }
@@ -81,18 +82,35 @@ body {
 }
 /* sections */
 .panel {
-  height: 75vh;
+  min-height: 75vh;
   padding: 10% 20%;
   font-size: 2em;
 }
 
-/* columns */
 
-.one-third {
-  float: left;
-  width: 32%;
-  margin-right: 2%;
+/* media queries */
+@media screen and (max-width: 45em) {
+  .panel {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .nav {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .one-third {
+    margin-top: 5%;
+  }
 }
-.last-col {
-  margin-right: 0;
+
+/* columns */
+@media screen and (min-width: 41em) {
+  .one-third {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+  }
+  .last-col {
+    margin-right: 0;
+  }
 }
