@@ -83,6 +83,7 @@ For the photos section, we'll be building out columns. We also want to add capti
 
 To add photos to our app, we'll want to get URLs for all of them. For best performance in this site we're building, the photos should be portrait (taller than wide). To make things easier on us here, we'll want to upload our images to [postimages.org](https://postimages.org/). When we do this we'll want to choose the direct link option to get the URLs. They should look something like this: 
 ```
+https://s8.postimg.cc/8zhe8z0s5/ko-headshot.jpg
 https://s8.postimg.cc/nb0fu1jvp/crazy-hair-looking-out-small.jpg
 https://s8.postimg.cc/bynuc9iwl/creator-state-of-mind-small.jpg
 https://s8.postimg.cc/r7drq1kat/masquerade-small.jpg
